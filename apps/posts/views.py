@@ -19,3 +19,4 @@ class PostUpdateAPIView(UpdateAPIView):
 class PostDestroyAPIView(DestroyAPIView):
     queryset = Post.objects.all()
     serializer_class = PostSerializer
+    
